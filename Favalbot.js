@@ -2444,7 +2444,7 @@
                         basicBot.disconnectAPI();
                         kill();
                         setTimeout(function () {
-                            $.getScript(basicBot.scriptLink);
+                            $.getScript('https://rawgit.com/Wastikene/Favalbot/lang/Favalbot.js', extend);
                         }, 2000);
                     }
                 }
