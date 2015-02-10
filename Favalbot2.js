@@ -183,7 +183,7 @@
         status: false,
         name: "Favalbot",
         loggedInID: null,
-        scriptLink: "https://rawgit.com/Wastikene/Favalbot/lang/Favalbot.js",
+        scriptLink: "https://rawgit.com/Wastikene/Favalbot/master/Favalbot2.js",
         cmdLink: "http://www.faval.eu/t1753-plug-dj-faval",
         chatLink: "https://rawgit.com/Wastikene/Favalbot/lang/langee.json",
         chat: null,
@@ -2444,7 +2444,7 @@
                         basicBot.disconnectAPI();
                         kill();
                         setTimeout(function () {
-                            $.getScript('https://rawgit.com/Wastikene/Favalbot/lang/Favalbot.js', extend);
+                            $.getScript('https://rawgit.com/Wastikene/Favalbot/master/Favalbot2.js', extend);
                         }, 2000);
                     }
                 }
